@@ -6,7 +6,7 @@ This code works with 2 functions, 4 if/elif/else lines, 1 loop, 2 inputs and try
 
 
 
-**OPPONENTS POSIBILITIES**
+**OPPONENT'S POSIBILITIES**
 
 1:
 
