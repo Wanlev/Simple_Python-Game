@@ -87,13 +87,13 @@ This code helps the user to interact with the game freely
             
 2:
 
-    except ValueError: #1
+    except ValueError:
         print("""ERROR. Please enter known number commands only Error code: 1""")
 
-    except TypeError: #2
+    except TypeError:
         print("""ERROR. Please enter known number commands only Error code: 2 """)
 
-    except Exception: #general
+    except Exception:
         print("""ERROR. Please enter known number commands only Something went wrong!""")
 
 First code decides the winner
@@ -108,5 +108,7 @@ Second code handles all the errors (especially (int(USER)==x):)
 __Where can be improved:__
 
 The game resets all the time. Instead, scores can be added to save the wins.
+
 Except exception is too general, more except commands can be added.
+
 This is terminal only since i still dont know how GUI works. GUI can be added in the future
