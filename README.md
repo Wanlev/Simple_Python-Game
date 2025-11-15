@@ -55,8 +55,8 @@ Unknown commands are handled with the else statement
 **USERS MOVE**
 
     USER = input("""PAPER : 1
-SCISSORS : 2
-ROCK : 3 """)
+    SCISSORS : 2
+    ROCK : 3 """)
 
     if USER=="1":
         p="PAPER"
